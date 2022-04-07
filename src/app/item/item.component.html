@@ -1,0 +1,7 @@
+<div class="panel panel-default">
+    <div class="panel-heading">Task # {{ item.index }}</div>
+    <div class="panel-body">
+        <p> {{ item.task.name }} </p>
+        <button class="btn btn-danger" (click)="onDeleteTask()">Remove</button>
+    </div>
+</div>
